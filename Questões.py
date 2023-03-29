@@ -1,4 +1,4 @@
-// Questao 1
+# Questao 1
 """
 1) Observe o trecho de código abaixo:
 
@@ -23,7 +23,7 @@ imprimir(SOMA);
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// Questao 2
+# Questao 2
 """
 2) Dado a sequência de Fibonacci, onde se inicia por 0 e 1 e o próximo valor sempre será a soma dos 2 valores anteriores (exemplo: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34...), escreva um programa na linguagem que desejar onde, informado um número, ele calcule a sequência de Fibonacci e retorne uma mensagem avisando se o número informado pertence ou não a sequência.
 
@@ -31,7 +31,7 @@ IMPORTANTE:
 
 Esse número pode ser informado através de qualquer entrada de sua preferência ou pode ser previamente definido no código;
 """
-//Resposta:
+# Resposta:
 
 def pertence_fibo(num):
     seq_fibo = [0, 1]
@@ -46,7 +46,7 @@ def pertence_fibo(num):
     
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-//Questao 3
+# Questao 3
 
 """ 
 3) Descubra a lógica e complete o próximo elemento:
@@ -72,7 +72,7 @@ f) 2, 10, 12, 16, 17, 18, 19, ____
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-//Questao 4
+# Questao 4
 
 """
 4 - Dois veículos (um carro e um caminhão) saem respectivamente de cidades opostas pela mesma rodovia. O carro de Ribeirão Preto em direção a Franca, a uma velocidade constante de 110 km/h e o caminhão de Franca em direção a Ribeirão Preto a uma velocidade constante de 80 km/h. Quando eles se cruzarem na rodovia, qual estará mais próximo a cidade de Ribeirão Preto?
@@ -94,7 +94,7 @@ c) Explique como chegou no resultado.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-//Questao 5
+# Questao 5
 
 """
 5) Escreva um programa que inverta os caracteres de um string.
@@ -108,7 +108,7 @@ a) Essa string pode ser informada através de qualquer entrada de sua preferênc
 b) Evite usar funções prontas, como, por exemplo, reverse;
 
 """
-//Resposta:
+# Resposta:
 
 def inverte_string(string):
     string = list(string)
