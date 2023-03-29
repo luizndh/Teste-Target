@@ -107,14 +107,25 @@ a) Essa string pode ser informada através de qualquer entrada de sua preferênc
 
 b) Evite usar funções prontas, como, por exemplo, reverse;
 
-
+"""
 //Resposta:
 
+def inverte_string(string):
+    string = list(string)
+    contador_ini = 0
+    contador_fim = len(string) - 1
+    while contador_ini != contador_fim and (contador_ini - 1) != contador_fim:
+        temp = string[contador_ini]
+        string[contador_ini] = string[contador_fim]
+        string[contador_fim] = temp
+        contador_ini += 1
+        contador_fim -= 1
+
+    return f'String invertida: {"".join(string)}'
 
 
 
 
-"""
 
 
 
