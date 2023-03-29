@@ -1,4 +1,4 @@
-// Questão 1
+// Questao 1
 """
 1) Observe o trecho de código abaixo:
 
@@ -23,7 +23,7 @@ imprimir(SOMA);
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// Questão 2
+// Questao 2
 """
 2) Dado a sequência de Fibonacci, onde se inicia por 0 e 1 e o próximo valor sempre será a soma dos 2 valores anteriores (exemplo: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34...), escreva um programa na linguagem que desejar onde, informado um número, ele calcule a sequência de Fibonacci e retorne uma mensagem avisando se o número informado pertence ou não a sequência.
 
@@ -46,7 +46,7 @@ def pertence_fibo(num):
     
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-//Questão 3
+//Questao 3
 
 """ 
 3) Descubra a lógica e complete o próximo elemento:
@@ -72,8 +72,9 @@ f) 2, 10, 12, 16, 17, 18, 19, ____
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-//Questão 4
+//Questao 4
 
+"""
 4 - Dois veículos (um carro e um caminhão) saem respectivamente de cidades opostas pela mesma rodovia. O carro de Ribeirão Preto em direção a Franca, a uma velocidade constante de 110 km/h e o caminhão de Franca em direção a Ribeirão Preto a uma velocidade constante de 80 km/h. Quando eles se cruzarem na rodovia, qual estará mais próximo a cidade de Ribeirão Preto?
 
 
@@ -89,12 +90,13 @@ c) Explique como chegou no resultado.
 
 //Resposta: Pegadinha. O caminhão estará mais perto, pois como ele está indo em direção a Ribeirão Preto, e o carro em direção à ele,
 //ao passar pelo carro, ele automaticamente estará mais próximo a Ribeirão Preto.
-
+"""
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-//Questão 5
+//Questao 5
 
+"""
 5) Escreva um programa que inverta os caracteres de um string.
 
 
@@ -111,7 +113,12 @@ b) Evite usar funções prontas, como, por exemplo, reverse;
 
 
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+"""
+
+
+
+
     
     
     
